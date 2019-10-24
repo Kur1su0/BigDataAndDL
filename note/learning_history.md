@@ -11,7 +11,7 @@
 How big is the output volume? The depth is equal to the number of filters -- every filter produces an activation map. The weight and height depend on a number of factors, which we can summarize in the following equations:
 
 ![img](http://latex.codecogs.com/svg.latex?W_o%3D%5Cfrac%7BW_i-F%2B2P%7D%7BS%2B1%7D)\
-![img](http://latex.codecogs.com/svg.latex?W_o%3D%5Cfrac%7BH_i-F%2B2P%7D%7BS%2B1%7D)\
+![img](http://latex.codecogs.com/svg.latex?W_o%3D%5Cfrac%7BH_i-F%2B2P%7D%7BS%2B1%7D)
 
 [//]: # ($$W_o = (W_i - F + 2 P) / S + 1$$)
 
