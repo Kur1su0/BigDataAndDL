@@ -19,7 +19,7 @@ $$H_o = (H_i - F + 2 P) / S + 1$$
 -->
 
 Where $(W_i, H_i)$ is the input size, __F__ is the width/height of the filter (which we assume is square), __P__ is the amount of __zero padding__, and $S$ is the __stride__. Zero padding refers to adding a border of zeros around the input image, and the stride refers to how far the kernel steps when it slides across the input. We almost always use __F = 2 P + 1__ and __S = 1__, which makes these equations simpler (just a little bit):
-![img](http://latex.codecogs.com/svg.latex?W_o = W_i)
+![img](http://latex.codecogs.com/svg.latex?W_o=W_i)
 $$W_o = W_i$$
 $$H_o = W_i$$
 
