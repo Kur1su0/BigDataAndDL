@@ -13,9 +13,10 @@ How big is the output volume? The depth is equal to the number of filters -- eve
 ![img](http://latex.codecogs.com/svg.latex?W_o%3D%5Cfrac%7BW_i-F%2B2P%7D%7BS%2B1%7D)\
 ![img](http://latex.codecogs.com/svg.latex?H_o%3D%5Cfrac%7BH_i-F%2B2P%7D%7BS%2B1%7D)
 
-[//]: # ($$W_o = (W_i - F + 2 P) / S + 1$$)
-
-[//]: # ($$H_o = (H_i - F + 2 P) / S + 1$$)
+<!---
+$$W_o = (W_i - F + 2 P) / S + 1$$
+$$H_o = (H_i - F + 2 P) / S + 1$$
+-->
 
 Where $(W_i, H_i)$ is the input size, $F$ is the width/height of the filter (which we assume is square), $P$ is the amount of __zero padding__, and $S$ is the __stride__. Zero padding refers to adding a border of zeros around the input image, and the stride refers to how far the kernel steps when it slides across the input. We almost always use $F = 2 P + 1$ and $S = 1$, which makes these equations simpler (just a little bit):
 
